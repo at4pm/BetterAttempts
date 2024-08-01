@@ -1,0 +1,28 @@
+{
+	"geode": "3.4.0",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206",
+		"mac": "2.206",
+		"ios": "2.206"
+	},
+	"id": "ata.cat",
+	"name": "Custom Attempt Text",
+	"version": "v1.0.0",
+	"developer": "ata",
+	"description": "Replaces the attempt counter text",
+	"settings": {
+		"text": {
+			"name": "Text",
+			"type": "string",
+			"default": "# attempts? u suck",
+			"description": "The text to replace the attempt counter"
+		},
+		"useTotal": {
+			"name": "Use total attempts",
+			"type": "bool",
+			"default": false,
+			"description": "Use the total amount of attempts for that level"
+		}
+	}
+}
