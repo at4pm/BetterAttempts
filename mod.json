@@ -24,5 +24,8 @@
 			"default": false,
 			"description": "Use the total amount of attempts for that level"
 		}
+	},
+	"links": {
+		"source": "https://github.com/at4pm/CustomAttemptText/"
 	}
 }
