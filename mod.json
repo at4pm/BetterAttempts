@@ -16,7 +16,8 @@
 			"name": "Text",
 			"type": "string",
 			"default": "# attempts? u suck",
-			"description": "The text to replace the attempt counter"
+			"description": "The text to replace the attempt counter",
+			"filter": "`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,.+_|{}:?/!@#$%^&*()"
 		},
 		"useTotal": {
 			"name": "Use total attempts",
