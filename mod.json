@@ -7,13 +7,13 @@
 		"ios": "2.206"
 	},
 	"id": "ata.cat",
-	"name": "Custom Attempt Text",
-	"version": "v1.0.0",
+	"name": "Better Attempts",
+	"version": "v1.0.1",
 	"developer": "ata",
-	"description": "Replaces the attempt counter text",
+	"description": "Allows you to customise the attempt label",
 	"settings": {
 		"text": {
-			"name": "Text",
+			"name": "Label text",
 			"type": "string",
 			"default": "# attempts? u suck",
 			"description": "The text to replace the attempt counter",
@@ -24,6 +24,18 @@
 			"type": "bool",
 			"default": false,
 			"description": "Use the total amount of attempts for that level"
+		},
+		"opacity": {
+			"name": "Label opacity",
+			"type": "float",
+			"default": 1.0,
+			"description": "<cb>Original idea by Chelik.</c>\n\nChanges the opacity of the attempt label.",
+			"max": 1.0,
+			"min": 0.0,
+			"control": {
+				"slider": true,
+				"slider-step": 0.1
+			}
 		}
 	},
 	"links": {

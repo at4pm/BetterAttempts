@@ -8,6 +8,7 @@ class $modify(PlayLayer) {
 
 		bool useTotal = geode::Mod::get()->getSettingValue<bool>("useTotal");
 		std::string customString = geode::Mod::get()->getSettingValue<std::string>("text");
+		double thingyOpacity = geode::Mod::get()->getSettingValue<double>("opacity");
 
 		auto attemptLabel = this->m_attemptLabel;
 		if (attemptLabel) {
@@ -21,6 +22,8 @@ class $modify(PlayLayer) {
 			}
 			
 			attemptLabel->setString(customString.c_str());
+
+			attemptLabel->setOpacity(thingyOpacity * 255.0);
 		}
 	}
 };
