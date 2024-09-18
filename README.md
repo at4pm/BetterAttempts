@@ -1,4 +1,8 @@
-# Custom Attempt Text
-reminds me of mhv7
+# Better Attempts
+Allows you to customise the attempt label.
 
-i made this to farm downloads and (possibly) get verified developer.
+## Usage
+Open the mod settings in the Geode menu.
+
+## Credit
+Thanks to boomyboomer123 for the logo.
