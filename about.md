@@ -1,4 +1,8 @@
-# Custom Attempt Text
-this mod replaces the attempt counter on the playlayer with your custom text.
+# Better Attempts
+Allows you to customise the attempt label.
 
-to put the attempt number there, you have to put the hashtag (#)
+## Usage
+Open the mod settings in the Geode menu.
+
+## Credit
+Thanks to boomyboomer123 for the logo.
