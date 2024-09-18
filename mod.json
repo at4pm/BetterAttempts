@@ -8,7 +8,7 @@
 	},
 	"id": "ata.cat",
 	"name": "Better Attempts",
-	"version": "v1.1",
+	"version": "v1.1.0",
 	"developer": "ata",
 	"description": "Allows you to customise the attempt label",
 	"settings": {
